@@ -1,0 +1,37 @@
+<html lang='fr'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <script src='./regexp.js' defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>RegExp</title>
+</head>
+<body>
+    <form action="" method="post" id="Form">
+    
+        <div id="MDP">
+            <label id="FormLabel">Mot de passe :</label>
+            <input id="inputMDP" class="inputForm" type="password" name="password" placeholder="Votre mot de passe">
+        </div>
+    
+        <div>
+            <label id="FormLabel">E-Mail :</label>
+            <input id="inputMail" class="inputForm" type="email" name="mailto" placeholder="mail@votremail.fr">
+        </div>
+
+        <div>
+            <label id="FormLabel">Numéro de téléphone :</label>
+            <input id="inputTel" class="inputForm" type="text" name="tel" placeholder="0600000000">
+        </div>
+
+        <div>
+            <label id="FormLabel">Code Postal :</label>
+            <input id="inputCP" class="inputForm" type="number" name="CP" placeholder="CP" value="">
+        </div>
+    
+        <input id="inputFormSubmit" type="button" value="Tester">
+        <div id="mess"></div>
+    </form>
+</body>
+</html>
